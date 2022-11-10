@@ -60,10 +60,30 @@ body {
 
 .header {
     height: 60vh !important;
-    background: url(img/header.jpg) no-repeat center;
+    background: url(video/videobaile.mp4) no-repeat center;
     background-size: cover;
 }
-
+.sect {
+    width: 100%;
+    min-height: 500px;
+  }
+  #sect1,
+  #sect3 {
+    background-color: #3333337d;
+    color: #fff;
+  }
+  #sect2 {
+    background-color: #dddddd7d;
+    color: #333;
+  }
+  video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+    z-index: -1;
+  }
 .title {
     margin-bottom: 40px;
     font-size: 60px;
@@ -71,12 +91,41 @@ body {
     text-transform: uppercase;
     color: #fff;
 }
+.title1 {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(27, 3, 22);
+}
+.title2 {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
 
 p {
     margin-bottom: 40px;
     font-size: 18px;
     color: #fff;
     padding: 0 100px;
+}
+p1 {
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: rgb(24, 3, 26);
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+p2 {
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 0 100px;
+    font-weight: bold;
 }
 
 .btn {
